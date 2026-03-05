@@ -8,3 +8,5 @@ const authRouter = require("./routes/auth.routes");
 // Using all the routes
 app.use("/api/auth", authRouter);
 module.exports = app;
+
+
